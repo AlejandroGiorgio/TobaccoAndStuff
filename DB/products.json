@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "image": "cigarretes-malboro.jpg",
+        "brand": "Malboro",
+        "price": 200,
+        "stock": 600
+    },
+    {
+        "id": 2,
+        "image": "cigarretes-camel.jpg",
+        "brand": "Camel",
+        "price": 150,
+        "stock": 400
+    },
+    {
+        "id": 3,
+        "image": "cigarretes-chesterfield.jpeg",
+        "brand": "Chestefield",
+        "price": 120,
+        "stock": 700
+    },
+    {
+        "id": 4,
+        "image": "chocolate-aguila.jpg",
+        "brand": "Aguila",
+        "price": 400,
+        "stock": 600
+    },
+    {
+        "id": 5,
+        "image": "chocolate-milka.jpeg",
+        "brand": "Milka",
+        "price": 500,
+        "stock": 800
+    },
+    {
+        "id": 6,
+        "image": "chocolate-shot.jpg",
+        "brand": "Shot",
+        "price": 300,
+        "stock": 200
+    },
+    {
+        "id": 7,
+        "image": "bebida-smirnoff.jpeg",
+        "brand": "Smirnoff",
+        "price": 400,
+        "stock": 600
+    },
+    {
+        "id": 8,
+        "image": "bebida-bombay.jpeg",
+        "brand": "Bombay",
+        "price": 500,
+        "stock": 800
+    },
+    {
+        "id": 9,
+        "image": "bebida-aconcagua.jpeg",
+        "brand": "Aconcagua",
+        "price": 300,
+        "stock": 200
+    }
+]

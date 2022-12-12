@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="./css/checkout.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/templates.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script defer src="js/checkout.js"></script>
+    <title>Ordenar compra</title>
+</head>
+
+<body>
+    <header>
+        <h1 style="color: black">
+            Tobacco&stuff
+        </h1>
+    </header>
+    <div>
+        <h1 class="welcome2" id="welcome2">
+
+        </h1>
+    </div>
+
+    <div class="centrar">
+        <button class="button button-outline"><a href="index.html">Seguir comprando</a></button>
+    </div>
+    <hr>
+
+    <table>
+        <thead>
+            <tr>
+                <th id="tablehead">Producto</th>
+                <th id="tablehead">Descripción</th>
+                <th id="tablehead">Importe</th>
+                <th id="tablehead">Quitar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aquí</td>
+                <td>verás</td>
+                <td>productos</td>
+                <td><img src="" width="30px"></td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+
+        <tr>
+            <th id="tablehead">Precio total de tu compra</th>
+            <th id="totalPrice"></th>
+        </tr>
+
+    </table>
+    
+    <h2 style="color: green">Finaliza tu compra llenando el formulario</h2>
+
+    <form action="" id="form">
+        <label for="formName">
+            <span>¿Cual es tu nombre?</span>
+            <input type="text" name="nombre" id="formName" autocomplete="name" placeholder="Nombre" required />
+        </label>
+        <label for="formMail">
+            <span>¿Cual es tu email?</span>
+            <input type="email" name="correo" id="formMail" autocomplete="email" placeholder="Email" required />
+        </label>
+        <label for="adress">
+            <span>¿Cual es tu codigo postal?</span>
+            <input type="text" name="adress" id="address" autocomplete="street-address" placeholder="Dirección" required />
+        </label>
+        <label for="cp">
+            <span>¿Cual es tu codigo postal?</span>
+            <input type="text" name="cp" id="cp" autocomplete="postal-code" placeholder="Codigo Postal" required />
+        </label>
+        <input type="submit" value="Finalizar Compra"/>
+    </form>
+
+    <footer>
+        <br>
+        <p style="color: black">Estudiante: Alejandro Giorgio</p>
+        <p style="color: black">👩🏻‍💻 Comisión JavaScript 34095 👨🏻‍💻</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic");
+@import url('https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+}
+
+header {
+    background-color: green;
+    padding: 10px;
+}
+
+div-description {
+    background-color: wheat;
+    padding: 10px;
+}
+
+body {
+    padding: 20px;
+}
+
+footer {
+    background-color: green;
+    padding: 10px;
+}
+
+.card{
+    width: 30%;
+    height: 30%;
+    margin: 20px;
+    border: 1px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.card .card-image {
+    text-align: center;
+    font-size: 60px;
+    display: block;
+    width: 1fr;
+}
+
+.card .card-brand {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+    width: 1fr;
+}
+
+.card .card-price {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    width: 1fr;
+}
+
+.card .card-stock {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    width: 1fr;
+}
+
+.card .card-button {
+    text-align: center;
+    display: block;
+}
+
+.button-add {
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    outline: 1px greenyellow !important;
+    line-height: 3rem;
+}
+
+.card .card-button button {
+    margin-top: 10px;
+    font-size: 20px !important;
+}
+
+.card .card-button button:active {
+    background: rgb(0, 107, 14) !important;
+    color: rgb(9, 255, 0) !important;
+}
